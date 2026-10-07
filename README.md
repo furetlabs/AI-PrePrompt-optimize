@@ -1,39 +1,37 @@
-# AI-PrePrompt
+PRÉ-INSTRUCTS IA
 
-Personal AI system prompt / custom instructions block, maintained for use across AI platforms (Claude, ChatGPT, Perplexity, etc.).
+Bloc d’instructions personnalisées pour les systèmes d’IA personnels, mis à jour pour être utilisé sur toutes les plateformes d’IA (Claude, ChatGPT, Perplexity, etc.).
 
-## Purpose
+Objectif
 
-This repo tracks the evolution of my personal AI custom instructions over time. The instructions define how AI assistants should behave, format responses, and interact with me across all general-use AI platforms.
+Ce dépôt retrace l’évolution de mes instructions personnalisées pour l’IA au fil du temps. Ces instructions définissent la manière dont les assistants IA doivent se comporter, formater leurs réponses et interagir avec moi sur toutes les plateformes d’IA à usage général.
 
-These are **not** project-specific or task-specific prompts. They establish baseline behavior, tone, formatting standards, and workflow conventions that apply to every interaction.
+Il ne s’agit pas de consignes spécifiques à un projet ou à une tâche. Elles établissent un comportement de base, un ton, des normes de mise en forme et des conventions de workflow qui s’appliquent à chaque interaction.
 
-## Usage
+Utilisation
 
-Paste the contents of the current instructions file into the **Custom Instructions**, **System Prompt**, or **Personal Preferences** field of any AI platform. Intended for general-purpose, non-isolated chat contexts.
+Collez le contenu du fichier d’instructions actuel dans le champ « Instructions personnalisées », « Consignes système » ou « Préférences personnelles » de n’importe quelle plateforme d’IA. Destiné à des contextes de discussion généraux et non isolés.
 
-**Platforms this is used on:**
-- Claude (claude.ai)
-- ChatGPT
-- Perplexity
+Plateformes sur lesquelles ce document est utilisé :
 
-Each version is saved as a new dated file. The most recent file is the active version.
+Claude (claude.ai)
+ChatGPT
+Perplexity
+Chaque version est enregistrée sous la forme d’un nouveau fichier daté. Le fichier le plus récent est la version active.
 
-## What the Instructions Cover
+Contenu des instructions
 
-- **Tone & Behavior** — How the AI should communicate (direct, professional, no filler)
-- **Formatting** — When to use prose vs. headers vs. tables vs. code blocks
-- **Clarifying Questions** — When to ask before answering vs. after
-- **Coding Tasks** — Planning-first workflow, approval before generating code
-- **Proactive Flags** — When and how to surface related considerations I might miss
-- **Writing & Creative Tasks** — Audience clarification before proceeding
-- **Environment & Tooling** — Platform and productivity stack context
-- **Context File** — Instructions for the AI to prompt updates as preferences evolve
+Ton et comportement — Comment l’IA doit communiquer (direct, professionnel, sans remplissage)
+Mise en forme — Quand utiliser du texte, des en-têtes, des tableaux ou des blocs de code
+Questions de clarification — Quand les poser avant de répondre ou après
+Tâches de codage — Workflow axé sur la planification, validation avant génération du code
+Signalements proactifs — Quand et comment mettre en avant des considérations connexes que je pourrais oublier
+Rédaction et tâches créatives — Clarification du public cible avant de commencer
+Environnement et outils — Contexte de la plateforme et de la pile de productivité
+Fichier de contexte — Instructions permettant à l’IA de demander des mises à jour à mesure que les préférences évoluent
+Gestion des versions
 
-## Versioning
+De nouvelles versions sont créées lorsque des modifications significatives sont apportées : préférences affinées, nouvelles instructions ou corrections de comportement basées sur l’utilisation en situation réelle. Les messages de validation doivent indiquer brièvement ce qui a changé et pourquoi.
 
-New versions are created when meaningful changes are made — refined preferences, new instructions, or behavior corrections based on real-world use. Commit messages should briefly note what changed and why.
+Contexte
 
-## Background
-
-Developed iteratively through a structured conversation designed to capture working style, communication preferences, technical background, and workflow conventions. The goal is an AI that behaves like a knowledgeable professional colleague — accurate, direct, and efficient.
